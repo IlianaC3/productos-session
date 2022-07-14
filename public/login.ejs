@@ -1,0 +1,18 @@
+<%- include('layouts/header') -%>
+
+<div id="accionLogin" class="row">
+    <h3 class="col-sm-12">Iniciar sesión</h3>
+    <form action="/login" method="POST">
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="text" name="namePerson" id="namePerson"
+                    placeholder="Ingresa tu nombre!" required>
+            </div>
+            <div class="col">
+                <input class="btn btn-primary col-sm-4" type="submit" value="Enviar">
+            </div>
+        </div>
+    </form>
+</div>
+
+<%- include('layouts/footer') -%>
